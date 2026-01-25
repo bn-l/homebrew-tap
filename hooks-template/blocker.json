@@ -1,0 +1,14 @@
+{
+    "PreToolUse": [
+        {
+            "matcher": "Read|Write|Edit|Bash",
+            "hooks": [
+                {
+                    "type": "command",
+                    "command": "uv run python \"$CLAUDE_PROJECT_DIR/.claude/cust-hooks/blocker.py\"",
+                    "timeout": 10
+                }
+            ]
+        }
+    ]
+}

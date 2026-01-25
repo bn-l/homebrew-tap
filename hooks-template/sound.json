@@ -1,0 +1,12 @@
+{
+    "Notification": [
+        {
+            "hooks": [
+                {
+                    "type": "command",
+                    "command": "ffplay -nodisp -autoexit \"$CLAUDE_PROJECT_DIR/.claude/cust-hooks/alert.wav\""
+                }
+            ]
+        }
+    ]
+}
