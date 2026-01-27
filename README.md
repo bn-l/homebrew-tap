@@ -5,14 +5,14 @@ This tap contains the Homebrew formula for [clemp](https://github.com/bn-l/clemp
 ## Installation
 
 ```bash
-brew tap bn-l/clemp-tap
+brew tap bn-l/clemp
 brew install clemp
 ```
 
 Or install directly:
 
 ```bash
-brew install bn-l/clemp-tap/clemp
+brew install bn-l/clemp/clemp
 ```
 
 ## What is clemp?
