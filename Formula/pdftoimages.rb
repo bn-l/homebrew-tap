@@ -4,7 +4,7 @@ class Pdftoimages < Formula
   desc "Convert PDF pages to WebP images"
   homepage "https://github.com/bn-l/pdftoimages"
   url "https://github.com/bn-l/pdftoimages/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0a614ae3e376fe368325238dd146394cccb2d2990ab3d4531bb3168c57fd07f2"
+  sha256 "88dd8623488fe26aa61dfeaa7ec80011da9110a0d812f916336e9680f5cb2e72"
   license "MIT"
 
   head "https://github.com/bn-l/pdftoimages.git", branch: "main"
