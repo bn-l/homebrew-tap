@@ -25,3 +25,4 @@ brew install bn-l/tap/clemp
 | Formula | Description |
 |---------|-------------|
 | [clemp](https://github.com/bn-l/clemp) | CLI tool to scaffold Claude Code config files |
+| [pdftoimages](https://github.com/bn-l/pdftoimages) | Convert PDF pages to WebP images |
