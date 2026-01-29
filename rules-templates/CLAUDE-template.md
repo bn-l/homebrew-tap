@@ -22,7 +22,7 @@
 
 - Don't run any tests unless specifically asked to. I mean it.
 
-- Never edit any manifest file directly. This includes and is not limited to: package.json, package-lock.json, Cargo.toml, Gemfile, Gemfile.lock, etc, etc. You are strictly forbidden from editing these files though you are encouraged to read them. To install or uninstall a package use the appropriate terminal command.
+- Never edit any manifest file directly (with the exception of bumping version numbers or adding scripts). This includes and is not limited to: package.json, package-lock.json, Cargo.toml, Gemfile, Gemfile.lock, etc, etc. You are strictly forbidden from editing these files though you are encouraged to read them. To install or uninstall a package use the appropriate terminal command.
 {%- if "swift" in languages %}
     - Swift 6 introduce `add-dependency`. E.g. `swift package add-dependency https://github.com/apple/swift-argument-parser`
         - Other useful commands: `add-target-dependency`, `add-target`, `add-product`. Look at the help text for `swift package` also if in doubt
@@ -31,7 +31,7 @@
 
 - When using imported library code never create a type adhoc, instead use the types exported by the library itself.
 
-- Use volta to change or add a node version.
+- Use mise to change or add a node version.
 {%- endif %}
 </general>
 
