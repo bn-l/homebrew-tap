@@ -1,31 +1,27 @@
-# Homebrew Tap for clemp
+# bn-l Homebrew Tap
 
-This tap contains the Homebrew formula for [clemp](https://github.com/bn-l/clemp).
+Personal Homebrew tap for bn-l's formulae.
 
 ## Installation
 
 ```bash
-brew tap bn-l/clemp
+brew tap bn-l/tap
+```
+
+Then install any formula:
+
+```bash
 brew install clemp
 ```
 
 Or install directly:
 
 ```bash
-brew install bn-l/clemp/clemp
+brew install bn-l/tap/clemp
 ```
 
-## What is clemp?
+## Available Formulae
 
-clemp is a CLI tool to clone and configure the claude-template repository for your projects. It:
-
-- Clones a configurable GitHub template repo
-- Renders CLAUDE.md with language-specific rules
-- Configures hooks and MCP servers
-- Copies the configuration files to your working directory
-
-## Usage
-
-```bash
-clemp typescript --hooks sound --mcp context7
-```
+| Formula | Description |
+|---------|-------------|
+| [clemp](https://github.com/bn-l/clemp) | CLI tool to scaffold Claude Code config files |
