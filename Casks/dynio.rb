@@ -16,4 +16,9 @@ cask "dynio" do
   homepage "https://github.com/bn-l/dynio"
 
   app "dynio.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-d", "com.apple.quarantine", "#{appdir}/dynio.app"]
+  end
 end
