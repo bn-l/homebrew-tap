@@ -1,6 +1,6 @@
 # bn-l Homebrew Tap
 
-Personal Homebrew tap for bn-l's formulae.
+Personal Homebrew tap for bn-l's formulae and casks.
 
 ## Installation
 
@@ -26,3 +26,14 @@ brew install bn-l/tap/clemp
 |---------|-------------|
 | [clemp](https://github.com/bn-l/clemp) | CLI tool to scaffold Claude Code config files |
 | [pdftoimages](https://github.com/bn-l/pdftoimages) | Convert PDF pages to WebP images |
+
+## Available Casks
+
+| Cask | Description |
+|------|-------------|
+| [dynio](https://github.com/bn-l/dynio) | Wrap any CLI command in a spotlight-like omnibar |
+
+Install casks with:
+```bash
+brew install --cask bn-l/tap/dynio
+```
