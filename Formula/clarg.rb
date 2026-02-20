@@ -3,8 +3,8 @@
 class Clarg < Formula
   desc "Claude Code hook handler for blocking commands and file access"
   homepage "https://github.com/bn-l/clarg"
-  url "https://github.com/bn-l/clarg/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "1db9fd045612314abf0948821d543c4a6a432782ddd818184d400f1394e42df2"
+  url "https://github.com/bn-l/clarg/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "b3f554375197f2a63bab58619b24b8aeeb0bb68da54a5235b01fe3e7043845d7"
   license "MIT"
 
   head "https://github.com/bn-l/clarg.git", branch: "master"
