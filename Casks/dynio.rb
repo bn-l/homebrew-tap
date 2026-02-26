@@ -1,13 +1,13 @@
 cask "dynio" do
-  version "1.2.0"
+  version "1.2.1"
 
   on_arm do
-    sha256 "f40817cff813ecd9e52866786599dbe3b6d01fe6c13c4dd1f1a44f267420e7c3"
+    sha256 "e2c69c263d60afbeb12bee906c3f25f4f8f63262a8718c0731e0a3e83d222631"
     url "https://github.com/bn-l/dynio/releases/download/dynio-v#{version}/dynio_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "abb4ac8f6fcf2db7141be9ae89c6140d0e23c8c3a1837428aa8719ac58198319"
+    sha256 "9ebfc9d2b4a661d5cdd477a8a8263185b16fb87346ece20bca9111cb080b1982"
     url "https://github.com/bn-l/dynio/releases/download/dynio-v#{version}/dynio_#{version}_x64.dmg"
   end
 
