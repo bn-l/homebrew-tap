@@ -3,8 +3,8 @@
 class Repoad < Formula
   desc "Turn any GitHub repository into a single, LLM-friendly markdown file"
   homepage "https://github.com/bn-l/repoad"
-  url "https://github.com/bn-l/repoad/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "a3134e018ddea5c2bb4db971c71b4692ba7303750c65b9189dddead8fc182635"
+  url "https://github.com/bn-l/repoad/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "cc6c1f69ce1e28b912d1aeb6cf84b10560066f805037d169615eec63c055148f"
   license "MIT"
 
   head "https://github.com/bn-l/repoad.git", branch: "main"
