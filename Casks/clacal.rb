@@ -1,6 +1,6 @@
 cask "clacal" do
-  version "1.6.0"
-  sha256 "f3c320b076c5cfa4838dbf5e30946b1dbce109dd93bf98834fee308b6a34e5cc"
+  version "1.6.1"
+  sha256 "a4dac805b6f090ce4f86191f35898023407d0f620589e4cde37f628e1ff94dd3"
   url "https://github.com/bn-l/clacal/releases/download/v#{version}/Clacal_#{version}.dmg"
 
   name "Clackal"
