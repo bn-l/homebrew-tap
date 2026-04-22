@@ -3,8 +3,8 @@
 class Clemp < Formula
   desc "CLI tool to clone and configure claude-template for your project"
   homepage "https://github.com/bn-l/clemp"
-  url "https://github.com/bn-l/clemp/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "6660f285ecb50d29d15e8cd0978d56ce7171c8206f7740e31a5ef9dcae345290"
+  url "https://github.com/bn-l/clemp/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "b5ab96d3a3e6ca6610b603bcfea8c867a7a332b2183c581f4c5ad85579f2d365"
   license "MIT"
 
   head "https://github.com/bn-l/clemp.git", branch: "master"
