@@ -3,8 +3,8 @@
 class Mako < Formula
   desc "Text-to-speech CLI via Kokoro — outputs M4A if ffmpeg is installed, else WAV"
   homepage "https://github.com/bn-l/mako"
-  url "https://github.com/bn-l/mako/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "53ffa8bfca853da874b652f1d896b031f579088a9fe79de9187c98cbd326c9a3"
+  url "https://github.com/bn-l/mako/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "5c49e5a0c44f59daa7e67a7e28ea63b7f10f7da7ec2dbe744b62373bc999c64e"
   license "MIT"
 
   head "https://github.com/bn-l/mako.git", branch: "main"
@@ -14,7 +14,13 @@ class Mako < Formula
 
   def install
     system "swift", "build", "--disable-sandbox", "-c", "release"
-    bin.install ".build/release/mako"
+    libexec.install ".build/release/mako"
+    libexec.install Dir[".build/release/*.bundle"]
+    (bin/"mako").write <<~SH
+      #!/bin/bash
+      exec "#{libexec}/mako" "$@"
+    SH
+    (bin/"mako").chmod 0755
   end
 
   test do
