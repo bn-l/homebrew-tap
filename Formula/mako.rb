@@ -3,8 +3,8 @@
 class Mako < Formula
   desc "Text-to-speech CLI via Kokoro — outputs M4A if ffmpeg is installed, else WAV"
   homepage "https://github.com/bn-l/mako"
-  url "https://github.com/bn-l/mako/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "5c49e5a0c44f59daa7e67a7e28ea63b7f10f7da7ec2dbe744b62373bc999c64e"
+  url "https://github.com/bn-l/mako/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "172958577af117ca7ac578d0ca9c3f00d854f2d3dbff0b8e5dbabd44d503e3cf"
   license "MIT"
 
   head "https://github.com/bn-l/mako.git", branch: "main"
