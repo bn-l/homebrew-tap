@@ -1,11 +1,11 @@
 cask "clacal" do
   version "1.9.0"
-  sha256 "ef10fe0faa013f8e414bbb96a4508026c7b7505e0f03907944ebe1aef6f1f6ce"
-  url "https://github.com/bn-l/cocal/releases/download/v#{version}/CodexSwitcher_#{version}.dmg"
+  sha256 "57128be2c4bb1d3746508691cf95dceb9e9d5ad80bd6265db1aa499b0a29f9f3"
+  url "https://github.com/bn-l/clacal/releases/download/v#{version}/CodexSwitcher_#{version}.dmg"
 
   name "CodexSwitcher"
   desc "Claude code usage calibrator"
-  homepage "https://github.com/bn-l/cocal"
+  homepage "https://github.com/bn-l/clacal"
 
   depends_on macos: ">= :sequoia"
 
