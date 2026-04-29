@@ -3,8 +3,8 @@
 class Devlogger < Formula
   desc "Append-only markdown devlog CLI"
   homepage "https://github.com/bn-l/devlogger"
-  url "https://github.com/bn-l/devlogger/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "56a1e5c19d9831270aa7b85d5dcad137ce6fedee4c27096ce923f8e072cec78b"
+  url "https://github.com/bn-l/devlogger/archive/refs/tags/v1.3.1.tar.gz"
+  sha256 "813dd69e70813c1ae03b319cb24f4cda6e52b53e6e528d19ec23998f76780717"
   license "MIT"
 
   head "https://github.com/bn-l/devlogger.git", branch: "master"
