@@ -1,6 +1,6 @@
 cask "cocal" do
-  version "0.1.0"
-  sha256 "31670fff9f3e8b7429fedb0a7d4f0be4a57d7e598141ae186fb2fe6bd5d322b0"
+  version "1.10.0"
+  sha256 "c93dc2923593a1e017d9ba1bdb289d6808b39e0a2f2ace0600ffceb9f799762f"
   url "https://github.com/bn-l/cocal/releases/download/v#{version}/Cocal_#{version}.dmg"
 
   name "Cocal"
