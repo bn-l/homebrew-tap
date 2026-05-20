@@ -1,6 +1,6 @@
 cask "clacal" do
-  version "1.8.2"
-  sha256 "9d7a77a4421b50739d7de92b20dd2eef6eadccdee08afdd3c1d09e60db208dc8"
+  version "1.8.3"
+  sha256 "4c4e6a10be850ef8993717ac3a1a49a2f4fac94c119063e4f31d3a813309f8ef"
   url "https://github.com/bn-l/clacal/releases/download/v#{version}/Clacal_#{version}.dmg"
 
   name "Clackal"
@@ -10,6 +10,7 @@ cask "clacal" do
   depends_on macos: ">= :sequoia"
 
   app "Clacal.app"
+  binary "#{appdir}/Clacal.app/Contents/MacOS/clacal-cli", target: "clacal"
 
   postflight do
     system_command "/usr/bin/xattr",
