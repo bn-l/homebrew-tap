@@ -1,6 +1,6 @@
 cask "cmux" do
-  version "1.41.2"
-  sha256 "8688513f94cb0e1058892b71e68fd9d70ad3074fdf69359241ae996ba4703ec3"
+  version "1.42.0"
+  sha256 "ee903530b88e0ca1777f02e1903744b96f401ec1eee84f71062686a88f2da9f6"
   url "https://github.com/bn-l/cmux/releases/download/v#{version}/cmux-macos.dmg"
 
   name "cmux"
