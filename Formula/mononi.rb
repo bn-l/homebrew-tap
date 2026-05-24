@@ -3,8 +3,8 @@
 class Mononi < Formula
   desc "Theme scheduler for macOS — morning, noon, and night"
   homepage "https://github.com/bn-l/mononi"
-  url "https://github.com/bn-l/mononi/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "22f50cd449e03262b5695aaa31bb355bb1236c9393af3bc112d90ff4cd54a2b5"
+  url "https://github.com/bn-l/mononi/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "7f18317d96c65461da90558455de62b1bd0e57cadeef8871231c18097f7e64fe"
   license "MIT"
 
   head "https://github.com/bn-l/mononi.git", branch: "main"
