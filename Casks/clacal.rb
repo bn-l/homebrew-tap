@@ -7,7 +7,7 @@ cask "clacal" do
   desc "Claude code usage calibrator"
   homepage "https://github.com/bn-l/clacal"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Clacal.app"
   binary "#{appdir}/Clacal.app/Contents/MacOS/clacal-cli", target: "clacal"

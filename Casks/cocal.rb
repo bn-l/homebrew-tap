@@ -7,7 +7,7 @@ cask "cocal" do
   desc "Claude code usage calibrator"
   homepage "https://github.com/bn-l/cocal"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Cocal.app"
 

@@ -7,7 +7,7 @@ cask "cmux" do
   desc "Lightweight native macOS terminal with vertical tabs"
   homepage "https://github.com/bn-l/cmux"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "cmux.app"
   binary "#{appdir}/cmux.app/Contents/Resources/bin/cmux"
