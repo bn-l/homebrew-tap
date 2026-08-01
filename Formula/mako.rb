@@ -3,8 +3,8 @@
 class Mako < Formula
   desc "Text-to-speech CLI — Kokoro by default, fish S2 Pro with --hq"
   homepage "https://github.com/bn-l/mako"
-  url "https://github.com/bn-l/mako/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "43ece1440815d1b2442a03fe3b96ff9d2b5b50dfa260fd2cff7327f77ff88bc3"
+  url "https://github.com/bn-l/mako/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "d1fb0b6393f22bdf673477792e7aa14fc8513b7d652bdc79567e95bfc83609ac"
   license "MIT"
 
   head "https://github.com/bn-l/mako.git", branch: "main"
