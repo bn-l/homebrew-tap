@@ -1,6 +1,6 @@
 cask "boyamanager" do
-  version "0.1.0"
-  sha256 "f4d3d8e17335a891ccfc94354e0db0d5551697f010342cca8f688f938338670a"
+  version "0.1.1"
+  sha256 "4985a3d017a3943910024e8024b02f9bfefb73b6385f00ce96a9b1293460ba48"
 
   url "https://github.com/bn-l/boyamanager/releases/download/v#{version}/BoyaManager_#{version}.dmg"
   name "BoyaManager"
