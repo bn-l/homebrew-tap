@@ -11,8 +11,7 @@ cask "boyamanager" do
 
   app "BoyaManager.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-d", "com.apple.quarantine", "#{appdir}/BoyaManager.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-d", "com.apple.quarantine", "{{appdir}}/BoyaManager.app"]
   end
 end
