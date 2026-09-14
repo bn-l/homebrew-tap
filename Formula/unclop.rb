@@ -3,8 +3,8 @@
 class Unclop < Formula
   desc "Inventory comments, identifiers and strings with tree-sitter for an agent"
   homepage "https://github.com/bn-l/unclop"
-  url "https://github.com/bn-l/unclop/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "46d379e566995e45f04be00813b1df0c2af5343940c3b0b9ff8ac03697b95272"
+  url "https://github.com/bn-l/unclop/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "9d3dd7e49becfef97f95f268c4d39c5c3314b460e7ad866990631b5d45f46b9b"
   license "MIT"
 
   head "https://github.com/bn-l/unclop.git", branch: "master"
