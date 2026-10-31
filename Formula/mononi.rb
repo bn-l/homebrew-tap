@@ -9,7 +9,7 @@ class Mononi < Formula
 
   head "https://github.com/bn-l/mononi.git", branch: "main"
 
-  depends_on xcode: [">= 16.0", :build]
+  depends_on xcode: [">= 26.0", :build]
   depends_on :macos
 
   def install
