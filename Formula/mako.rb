@@ -3,8 +3,11 @@
 class Mako < Formula
   desc "Text-to-speech CLI — Kokoro by default, fish S2 Pro with --hq"
   homepage "https://github.com/bn-l/mako"
-  url "https://github.com/bn-l/mako/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "d1fb0b6393f22bdf673477792e7aa14fc8513b7d652bdc79567e95bfc83609ac"
+  # The repo is private, so its tag tarballs 404 without a token, which curl downloads
+  # never send. A git clone goes through the user's git credential helper instead.
+  url "https://github.com/bn-l/mako.git",
+      tag:      "v0.5.0",
+      revision: "cc6875740b0017fee86a5ccc20cb165f1c202f1f"
   license "MIT"
 
   head "https://github.com/bn-l/mako.git", branch: "main"
@@ -37,12 +40,14 @@ class Mako < Formula
     <<~EOS
       `mako say` works immediately; Kokoro's model downloads on first use.
 
-      `mako say --hq` needs a one-off download of about 7 GB:
+      `mako say --hq` and voice cloning need a one-off download of about 7 GB.
+      It also fetches Apple's speech model, which transcribes clips for cloning:
 
-        mako hq install
+        mako install fish
 
-      It renders at roughly 2.3x realtime and peaks near 14.5 GB of memory, so
-      expect it to fail on a 16 GB machine. `mako doctor` reports what is missing.
+      An --hq render takes roughly 2.3x as long as the audio it produces and peaks
+      near 14.5 GB of memory, so expect it to fail on a 16 GB machine.
+      `mako doctor` reports what is missing.
     EOS
   end
 
