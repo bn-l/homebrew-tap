@@ -6,8 +6,8 @@ class Mako < Formula
   # The repo is private, so its tag tarballs 404 without a token, which curl downloads
   # never send. A git clone goes through the user's git credential helper instead.
   url "https://github.com/bn-l/mako.git",
-      tag:      "v0.5.0",
-      revision: "cc6875740b0017fee86a5ccc20cb165f1c202f1f"
+      tag:      "v0.6.0",
+      revision: "367fa389b9441ad56f40764ff89b59162ed5db92"
   license "MIT"
 
   head "https://github.com/bn-l/mako.git", branch: "main"
